@@ -43,6 +43,8 @@ Writing tests for your code will naturally decouple your code, because it would 
 
 ## Characteristics of a good unit test
 
+Also knowns as FIRST principles:
+
 - **Fast**: It isn't uncommon for mature projects to have thousands of unit tests. Unit tests should take little time to run. Milliseconds.
 - **Isolated**: Unit tests are standalone, can be run in isolation, and have no dependencies on any outside factors such as a file system or database.
 - **Repeatable**: Running a unit test should be consistent with its results, that is, it always returns the same result if you don't change anything in between runs.
