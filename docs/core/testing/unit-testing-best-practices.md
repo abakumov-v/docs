@@ -406,3 +406,7 @@ public void GetDiscountedPrice_OnTuesday_ReturnsHalfPrice()
 ```
 
 Now the test suite has full control over `DateTime.Now` and can stub any value when calling into the method.
+
+
+> [!TIP]
+> To reduce time spending for writing unit tests please, keep in mind that you may create a code snippet for that. And in your code snippet you may add Arrange-Act-Assert sections, add some special attributes, templates for test name and so on.
